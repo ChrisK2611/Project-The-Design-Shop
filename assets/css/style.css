@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Karla;
+    src: url("../fonts/Karla-VariableFont_wght.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: black solid; */
+}
+
+html {
+    font-family: "Karla", sans-serif;
+    max-width: 100%;
+    margin: 25px 75px;
+    color: #323A45;
+}
+
+img {
+    width: 100%;
+   
+}
+
+a {
+    color: #323A45;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 0 50px 0 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    /* background-color: aqua; */
+    gap: 30px;
+    padding-bottom: 25px;
+}
+
+.big {
+    grid-column: 1 / 4;
+}
+
+section .p-right {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product, .price {
+    font-weight: 600;
+    
+}
+
+.company {
+    color: #848484;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+article p {
+    max-width: 12rem;
+}
+
+h4 {
+    padding-bottom: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+span {
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+    section div {
+        grid-column: 1/4;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
